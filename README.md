@@ -72,12 +72,10 @@ Sau khi tạo thành công VPS Storage, quý khách tiền hành thêm disk HDD
 
 ### Bước 1: CHỌN MÁY ẢO CẦN NÂNG CẤP
 
-- Chọn máy ảo cần nâng cấp và tắt máy (shutdown) để đảm bảo an toàn. Quý khách có thể shutdown trực tiếp từ bên trong máy chủ hoặc bấm nút **Tắt nguồn**.
- 
-- - Sau khi máy chủ đã được tắt hoàn toàn, quý khách chọn tab "Storage" trong giao diện quản lý VPS.
+- Chọn máy ảo cần nâng cấp và quý khách chọn tab "Storage" trong giao diện quản lý VPS.
 
    <div align="center">
-  <img src="https://github.com/volevu17/test1/blob/main/99.png?raw=true" alt="Demo Image" width="800"/>
+  <img src="https://github.com/volevu17/test1/blob/main/101.png?raw=true" alt="Demo Image" width="800"/>
 </div>
 
 
@@ -146,6 +144,11 @@ Sau khi tạo thành công VPS Storage, quý khách tiền hành thêm disk HDD
  <div align="center">
   <img src="https://github.com/volevu17/test1/blob/main/15.png?raw=true" alt="Demo Image" width="800"/>
 </div>
+
+- Hệ thống tập tin EXT4 hỗ trợ: Kích thước tệp tối đa: 16TB
+- Hệ thống tập tin EXT3 hỗ trợ: Kích thước tệp tối đa: 2TB
+- Hệ thống tập tin EXF hỗ trợ: Kích thước tệp tối đa: 8EB
+Và còn nhiều hệ thống tệp khác nữa, quý khách có thể lựa chọn tùy vào nhu cầu.
 
 ### 1.4. Mount Partition 
 
@@ -234,7 +237,7 @@ Sau khi tạo thành công VPS Storage, quý khách tiền hành thêm disk HDD
   <img src="https://github.com/volevu17/test1/blob/main/26.png?raw=true" alt="Demo Image" width="800"/>
 </div>
   
-- Trong bài viết này mình đã hướng dẫn Mount ổ đĩa HDD thêm vào máy chủ trên 2 hệ điều hành đang thông dụng và phổ biến hiện nay. Chúc các bạn thao tác và thực hiện thành công.
+- Trong bài viết này mình đã hướng dẫn Mount ổ đĩa HDD thêm vào máy chủ trên 2 hệ điều hành đang thông dụng và phổ biến hiện nay. Chúc quý khách thao tác và thực hiện thành công.
 
 
 

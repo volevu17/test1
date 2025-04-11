@@ -34,9 +34,13 @@ Các bước hướng dẫn bên dưới được thực hiện sau khi quý kh�
 
 ### Bước 4: CHỌN CẤU HÌNH MÁY ẢO 
 
--  Mặc đinh hệ thống sẽ tự động mặc định thông số tối đa của gói toàn bộ tài nguyên của quý khách, quý khách có thể tùy chỉnh để phân chia số lượng máy chủ của mình mong muốn nếu cần tạo nhiều máy ảo hơn:
+- Mặc định, hệ thống sẽ tự động phân bổ toàn bộ tài nguyên tối đa theo gói dịch vụ mà quý khách đã đăng ký. Tuy nhiên, quý khách hoàn toàn có thể tùy chỉnh lại các thông số để phù hợp với nhu cầu, đặc biệt khi muốn tạo nhiều máy chủ ảo từ cùng một gói.
 
  ![5](https://github.com/volevu17/test1/blob/main/5.png?raw=true)
+
+ - Storage: Quý khách có 2 sự lựa chọn
+   - OS Storage: Ổ lưu trữ chính, dành cho việc cài đặt hệ điều hành và các phần mềm quan trọng.
+   - HDD Storage: Dành cho lưu trữ dữ liệu phụ.
 
 ### Bước 5: KHỞI TẠO MÁY ẢO 
 - Sau khi bấm nút **Tạo máy ảo mới** thì máy chủ của quý khách đang khởi tạo, quý khách vui lòng chờ đến khi máy chủ khởi tạo hoàn tất. Thời gian tạo mới đối với máy ảo chạy hệ điều hành Windows Server (30 phút) sẽ lâu hơn Linux (5 phút).

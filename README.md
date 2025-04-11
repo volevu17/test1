@@ -8,7 +8,7 @@ Các bước hướng dẫn bên dưới được thực hiện sau khi quý kh�
 
 ### Bước 1: THÊM MÁY CHỦ MỚI 
 - Quý khách click vào **Thêm máy chủ mới** 1 trong 2 chỗ như trên hình.
-![1]([https://github.com/vndata-vn/probation/assets/81816026/f5be6447-50c6-42fd-b003-407e6b348403](https://github.com/volevu17/test1/compare/main...volevu17-patch-1-%E1%BA%A3nh?expand=1))
+![1](https://github.com/volevu17/test1/blob/main/%E1%BA%A3nh%201.png?raw=true)
 
 - Đối với quý khách đã có 1 hoặc nhiều máy chủ trước thì sẽ chọn **Thêm máy chủ mới bên tay trái**, vì tab bên tay phải sẽ hiển thị máy chủ hiện có:
 

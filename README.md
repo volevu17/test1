@@ -155,7 +155,7 @@ Sau đây sẽ là hướng dẫn các bước thao tác để add thêm disk HD
 
 - **Bước 5:** Sau khi chọn **New Simple Volume** sẽ mở một hộp thoại mới, Để chọn dung lượng
 
-   ![22](https://github.com/volevu17/test1/blob/main/22.png?raw=true)
+   ![22](https://github.com/volevu17/test1/blob/main/22png.png?raw=true)
 
 - **Bước 6:** Chọn *Next* để tiếp tục và gán ký tự ổ đĩa (ví dụ: *E:* )
 
@@ -167,7 +167,7 @@ Sau đây sẽ là hướng dẫn các bước thao tác để add thêm disk HD
 
 - **Bước 8:** Sau khi Mount thành công ta vào **This PC** để xem xuất hiện một ổ đĩa mới
 
- ![26](https://github.com/vndata-vn/probation/assets/81816026/f5be6447-50c6-42fd-b003-407e6b348403)
+ ![26](https://github.com/volevu17/test1/blob/main/26.png?raw=true)
   
 - Trong bài viết này mình đã hướng dẫn Mount ổ đĩa HDD thêm vào máy chủ trên 2 hệ điều hành đang thông dụng và phổ biến hiện nay. Chúc các bạn thao tác và thực hiện thành công.
 

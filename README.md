@@ -149,23 +149,27 @@ Sau đây sẽ là hướng dẫn các bước thao tác để add thêm disk HD
 - **Bước 3:** Click chuột phải vào **Disk 1** chọn *Online* để bật **Disk 1**
   ![20](https://github.com/volevu17/test1/blob/main/20.png?raw=true)
 
-- **Bước 4:** Click chuột phải vào vùng màu đen => chọn **New Simple Volume**
+- **Bước 4:** Click chuột phải vào **Unallocated** => chọn **New Simple Volume**
 
-  ![21](https://github.com/volevu17/test1/blob/main/21.png?raw=true)
+  ![21](https://github.com/volevu17/test1/blob/main/21png.png?raw=true)
 
-- **Bước 5:** Sau khi chọn **New Simple Volume** sẽ mở một hộp thoại mới, Để chọn dung lượng
+- **Bước 5:** Sau khi chọn **New Simple Volume** sẽ mở một hộp thoại mới
 
-   ![22](https://github.com/volevu17/test1/blob/main/22png.png?raw=true)
+   ![22](https://github.com/volevu17/test1/blob/main/22.png?raw=true)
 
-- **Bước 6:** Chọn *Next* để tiếp tục và gán ký tự ổ đĩa (ví dụ: *E:* )
+- **Bước 6:** Chọn *Next* để tiếp tục và điều chỉnh kích thước ổ đĩa
 
- ![23](https://github.com/volevu17/test1/blob/main/23.png?raw=true)
+  ![23](https://github.com/volevu17/test1/blob/main/23.png?raw=true)
 
-- **Bước 7:** Chọn *Next* để qua một hộp thoại mới và chọn hệ thống tập tin tùy vào nhu cầu của quý khách
+- **Bước 7:** Chọn *Next* để tiếp tục và gán ký tự ổ đĩa (ví dụ: *E:* )
 
  ![24](https://github.com/volevu17/test1/blob/main/24.png?raw=true)
 
-- **Bước 8:** Sau khi Mount thành công ta vào **This PC** để xem xuất hiện một ổ đĩa mới
+- **Bước 8:** Chọn *Next* để qua một hộp thoại mới và chọn hệ thống tập tin tùy vào nhu cầu của quý khách
+
+ ![25](https://github.com/volevu17/test1/blob/main/25.png?raw=true)
+
+- **Bước 9:** Sau khi Mount thành công ta vào **This PC** để xem xuất hiện một ổ đĩa mới
 
  ![26](https://github.com/volevu17/test1/blob/main/26.png?raw=true)
   

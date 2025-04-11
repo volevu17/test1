@@ -8,7 +8,7 @@ Các bước hướng dẫn bên dưới được thực hiện sau khi quý kh�
 
 ### Bước 1: THÊM MÁY CHỦ MỚI 
 - Quý khách click vào **Thêm máy chủ mới**.
-- 
+
 <div align="center">
   <img src="https://github.com/volevu17/test1/blob/main/%E1%BA%A3nh%201.png?raw=true" alt="Demo Image" width="800"/>
 </div>
@@ -149,7 +149,7 @@ Sau khi tạo thành công VPS Storage, quý khách tiền hành thêm disk HDD
 
 ### 1.4. Mount Partition 
 
- - Tạo một thư mục để mount, chúng ta dùng lệnh: sudo mkdir /mnt/*Tên thư mục*
+ - Ví dụ tạo một thư mục để mount, chúng ta dùng lệnh: sudo mkdir /mnt/*Tên thư mục*
 
  - Tiếp theo mount ổ đĩa đã được phân vùng vào thư mục vừa tạo ra bằng lệnh: sudo mount /dev/sdb1 /mnt/*Tên thư mục*
 
@@ -210,6 +210,8 @@ Sau khi tạo thành công VPS Storage, quý khách tiền hành thêm disk HDD
   - **Mount in the dollowing empty NTFS folder:** Nếu chọn, quý khách có thể gắn phân vùng vào một thư mục trống trên ổ đĩa NTFS khác thay vì gán ký tự ổ đĩa.
   - **Do not assign a drive letter or drive path:** Không gán ký tự hay đường dẫn nào, phân vùng sẽ không hiển thị trong **File Explorer**.
 
+  - Trong bài hướng dẫn này, quý khách lựa chọn **Assign the following drive letter** 
+
 - **Bước 8:** Chọn *Next* để qua một hộp thoại mới và chọn hệ thống tập tin tùy vào nhu cầu của quý khách
 
  <div align="center">
@@ -222,9 +224,10 @@ Sau khi tạo thành công VPS Storage, quý khách tiền hành thêm disk HDD
     - **Allocation unit size:** Kích thước đơn vị phân bổ.
     - **Volume label:** Tên hiển thị của ổ đĩa này trong File Explorer.
     - **Perform a quick format:** Định dạng nhanh, không kiểm tra bad sector. Nếu bỏ chọn thì sẽ format kỹ hơn (mất thời gian hơn).
-
     - **Enable file and folder compression:** Nén tệp và thư mục trong ổ đĩa này để tiết kiệm không gian
 
+ - Trong bài hướng dẫn này, quý khách lựa chọn **Format this volume with the following settings** và đặt tên cho Volume.
+   
     - **Bước 9:** Kiểm tra Mount
 
  <div align="center">

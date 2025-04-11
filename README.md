@@ -94,14 +94,11 @@ Sau đây sẽ là hướng dẫn các bước thao tác để add thêm disk HD
 
 - Để kiểm tra ổ đĩa đã được phân vùng chưa thì chúng ta dùng lệnh như sau: lsblk
 
-   ![11](https://github.com/vndata-vn/probation/assets/81816026/f5be6447-50c6-42fd-b003-407e6b348403)
+   ![11](https://github.com/volevu17/test1/blob/main/11.png?raw=true)
 
 ### 1.2. Phân vùng ổ đĩa.
 
  - Nếu ổ đĩa chưa được phân vùng, hãy sử dụng lệnh: fdisk
-
-   ![12](https://github.com/vndata-vn/probation/assets/81816026/f5be6447-50c6-42fd-b003-407e6b348403)
-
  - Trong fdisk:
   - Gõ *n* để tạo phân vùng mới
   - Gõ *p* để Primary
@@ -109,9 +106,11 @@ Sau đây sẽ là hướng dẫn các bước thao tác để add thêm disk HD
   - Nhấn **Enter** vài lần để chấp nhận mặc định
   - Gõ *w* để ghi lại và thoát
 
+   ![13](https://github.com/volevu17/test1/blob/main/13.png?raw=true)
+
 - Sau khi tạo phân vùng thành công hãy kiểm tra bằng lênh: lsblk
 
-![13](https://github.com/vndata-vn/probation/assets/81816026/f5be6447-50c6-42fd-b003-407e6b348403)
+ ![14](https://github.com/volevu17/test1/blob/main/14.png?raw=true)
 
 - Quý khách sẽ thấy /dev/sbd1
 
@@ -120,7 +119,7 @@ Sau đây sẽ là hướng dẫn các bước thao tác để add thêm disk HD
 
 - Xóa toàn bộ dữ liệu trên phân vùng bằng lệnh: sudo mkfs.ext4
 
-![14](https://github.com/vndata-vn/probation/assets/81816026/f5be6447-50c6-42fd-b003-407e6b348403)
+![15](https://github.com/volevu17/test1/blob/main/15.png?raw=true)
 
 ### 1.4. Tạo thư mục để mount và mount lại 
 
@@ -128,13 +127,13 @@ Sau đây sẽ là hướng dẫn các bước thao tác để add thêm disk HD
 
  - Tiếp theo mount ổ đĩa đã được phân vùng vào thư mục vừa tạo ra bằng lệnh: sudo mount /dev/sdb1 /mnt/*Tên thư mục*
 
-   ![15](https://github.com/vndata-vn/probation/assets/81816026/f5be6447-50c6-42fd-b003-407e6b348403)
+   ![16](https://github.com/volevu17/test1/blob/main/16.png?raw=true)
 
 ### 1.5. Kiểm tra mount
 
 - Để kiểm tra ổ đĩa đã được mount, quý khách dùng lệnh *df -hT*, quý khách sẽ thấy /mnt/*Tên thư mục* được mount với loại filesystem là *ext4*
 
- ![16](https://github.com/vndata-vn/probation/assets/81816026/f5be6447-50c6-42fd-b003-407e6b348403)
+ ![17](https://github.com/volevu17/test1/blob/main/17.png?raw=true)
 
 
 ### 2. MOUNT DISK TRÊN WINDOWS

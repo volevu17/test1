@@ -27,7 +27,7 @@ Các bước hướng dẫn bên dưới được thực hiện sau khi quý kh�
 ### Bước 3: LỰA CHỌN HỆ ĐIỀU HÀNH VÀ CẤU HÌNH MÁY ẢO
 - Quý khách chọn từ danh sách hệ điều hành có sẳn. Chúng tôi sẽ liên tục cập nhật các hệ điều hành phổ biến và mới nhất có thể ở danh sách này.
 
- ![100](https://github.com/volevu17/test1/blob/main/xxx.png?raw=true)
+ ![100](https://github.com/volevu17/test1/blob/main/100.png?raw=true)
 
 
 - Mặc định, hệ thống sẽ tự động phân bổ toàn bộ tài nguyên tối đa theo gói dịch vụ mà quý khách đã đăng ký. Tuy nhiên, quý khách hoàn toàn có thể tùy chỉnh lại các thông số để phù hợp với nhu cầu, đặc biệt khi muốn tạo nhiều máy chủ ảo từ cùng một gói.
@@ -64,7 +64,7 @@ Sau khi tạo thành công VPS Storage, quý khách tiền hành thêm disk HDD
  
 - - Sau khi máy chủ đã được tắt hoàn toàn, quý khách chọn tab "Storage" trong giao diện quản lý VPS.
 
-   ![99](https://github.com/volevu17/test1/blob/main/7.png?raw=true)
+   ![99](https://github.com/volevu17/test1/blob/main/99.png?raw=true)
 
 
 ### Bước 2: NÂNG CẤP Ổ CỨNG (STORAGE) CỦA MÁY CHỦ ẢO
@@ -142,7 +142,7 @@ Sau khi tạo thành công VPS Storage, quý khách tiền hành thêm disk HDD
 
 - **Bước 2:** Sau khi vào được *Disk Management*, quý khách sẽ thấy được một ổ đĩa đã được thêm vào là **Disk 1**
   
-![97](https://github.com/volevu17/test1/blob/main/19.png?raw=true)
+![97](https://github.com/volevu17/test1/blob/main/97.png?raw=true)
 
 - **Bước 3:** Click chuột phải vào **Disk 1** chọn *Online* để Online **Disk 1**
   ![20](https://github.com/volevu17/test1/blob/main/20.png?raw=true)

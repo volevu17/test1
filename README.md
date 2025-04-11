@@ -12,7 +12,7 @@ Các bước hướng dẫn bên dưới được thực hiện sau khi quý kh�
 
 - Đối với quý khách đã có 1 hoặc nhiều máy chủ trước thì sẽ chọn **Thêm máy chủ mới bên tay trái**, vì tab bên tay phải sẽ hiển thị máy chủ hiện có:
 
- ![2](https://github.com/vndata-vn/probation/assets/81816026/f5be6447-50c6-42fd-b003-407e6b348403)
+ ![2](https://github.com/volevu17/test1/blob/main/%E1%BA%A2nh2.png?raw=true)
 
 ### Bước 2: GIAO DIỆN "TẠO MÁY CHỦ MỚI"
 

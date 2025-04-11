@@ -36,7 +36,7 @@ Các bước hướng dẫn bên dưới được thực hiện sau khi quý kh�
 
 - Mặc định, hệ thống sẽ tự động phân bổ toàn bộ tài nguyên tối đa theo gói dịch vụ mà quý khách đã đăng ký. Tuy nhiên, quý khách hoàn toàn có thể tùy chỉnh lại các thông số để phù hợp với nhu cầu, đặc biệt khi muốn tạo nhiều máy chủ ảo từ cùng một gói.
 
- ![5](https://github.com/volevu17/test1/blob/main/5.png?raw=true)
+ ![5](https://github.com/volevu17/test1/blob/main/xxx.png?raw=true)
 
  - Storage: Quý khách có 2 sự lựa chọn
    - OS Storage: Ổ lưu trữ chính, dành cho việc cài đặt hệ điều hành và các phần mềm quan trọng.
@@ -62,7 +62,7 @@ Các bước hướng dẫn bên dưới được thực hiện sau khi quý kh�
 
 Kính chào quý khách,
 
-Sau đây sẽ là hướng dẫn các bước thao tác để add thêm disk HDD vào máy chủ ảo Cloud VPS. Quý khách vui lòng thực hiện theo các bước sau.
+Dưới đây là các bước hướng dẫn để thêm ổ đĩa HDD vào máy chủ ảo (Cloud VPS). Quý khách vui lòng thực hiện lần lượt theo các bước sau:
 
 ### Bước 1: CHỌN MÁY ẢO CẦN NÂNG CẤP
 
@@ -73,7 +73,7 @@ Sau đây sẽ là hướng dẫn các bước thao tác để add thêm disk HD
 
 ### Bước 2: NÂNG CẤP Ổ CỨNG (STORAGE) CỦA MÁY CHỦ ẢO
 
-- Sau khi shutdown bấm vào mục Storage
+- Sau khi máy chủ đã được tắt hoàn toàn, quý khách chọn tab "Storage" trong giao diện quản lý VPS.
 
  ![8](https://github.com/volevu17/test1/blob/main/8.png?raw=true)
 
@@ -84,13 +84,17 @@ Sau đây sẽ là hướng dẫn các bước thao tác để add thêm disk HD
 
  ![9](https://github.com/volevu17/test1/blob/main/9.png?raw=true)
 
- ### Bước 2: TIẾN HÀNH KHỞI ĐỘNG LẠI MÁY CHỦ VÀ KIỂM TRA KẾT QUẢ
+ ### Bước 3: TIẾN HÀNH KHỞI ĐỘNG LẠI MÁY CHỦ VÀ KIỂM TRA KẾT QUẢ
 
  ![10](https://github.com/volevu17/test1/blob/main/10.png?raw=true)
 
 - Bài viết trên đây là toàn bộ hướng dẫn thực hiện việc nâng cấp ổ đĩa HDD của máy chủ ảo, nếu quý khách gặp khó khăn trong quá trình thực hiện vui lòng liên hệ bộ phận hỗ trợ kỹ thuật để được hỗ trợ nhanh chóng.
  ---
  # MOUNT DISK HDD TRÊN OS LINUX VÀ WINDOWS
+
+ Kính chào Quý khách,
+
+ Sau khi đã thêm thành công ổ đĩa HDD vào máy chủ Cloud VPS, Quý khách vui lòng tiếp tục thực hiện các bước sau để mount ổ đĩa vào hệ điều hành và sử dụng cho mục đích lưu trữ dữ liệu.
 
    ### 1. MOUNT DISK TRÊN UBUNTU
  
@@ -116,12 +120,12 @@ Sau đây sẽ là hướng dẫn các bước thao tác để add thêm disk HD
 
  ![14](https://github.com/volevu17/test1/blob/main/14.png?raw=true)
 
-- Quý khách sẽ thấy /dev/sbd1
+- Quý khách sẽ thấy /dev/sdb1
 
 
 ### 1.3. Tạo filesystem cho phân vùng 
 
-- Xóa toàn bộ dữ liệu trên phân vùng bằng lệnh: sudo mkfs.ext4
+- Quý khách cần tạo hệ thống tập tin (chẳng hạn ext4) để phân vùng có thể sử dụng được trong hệ điều hành.
 
 ![15](https://github.com/volevu17/test1/blob/main/15.png?raw=true)
 
@@ -135,8 +139,8 @@ Sau đây sẽ là hướng dẫn các bước thao tác để add thêm disk HD
 
 ### 1.5. Kiểm tra mount
 
-- Để kiểm tra ổ đĩa đã được mount, quý khách dùng lệnh *df -hT*, quý khách sẽ thấy /mnt/*Tên thư mục* được mount với loại filesystem là *ext4*
-
+- Để kiểm tra ổ đĩa đã được mount, quý khách dùng lệnh *df -hT*, sẽ hiển thị danh sách các phân vùng đã được mount cùng với định dạng hệ thống tập tin.
+  
  ![17](https://github.com/volevu17/test1/blob/main/17.png?raw=true)
 
 
@@ -161,17 +165,36 @@ Sau đây sẽ là hướng dẫn các bước thao tác để add thêm disk HD
 
    ![22](https://github.com/volevu17/test1/blob/main/22.png?raw=true)
 
+
 - **Bước 6:** Chọn *Next* để tiếp tục và điều chỉnh kích thước ổ đĩa
 
   ![23](https://github.com/volevu17/test1/blob/main/23.png?raw=true)
+
+  - **Maximum disk space in MB:** Dung lượng tối đa mà bạn có thể gán cho phân vùng này (tính theo MB). Đây là dung lượng trống có sẵn trên ổ đĩa.
+  - **Minimum disk space in MB:** Dung lượng tối thiểu mà bạn có thể gán (thường là 8MB trở lên).
+  - **Simple volume size in MB:** Mặc định là dung lượng tối đa, nhưng bạn có thể chỉnh lại tùy ý. Đây là kích thước thực tế của phân vùng mới.
+
 
 - **Bước 7:** Chọn *Next* để tiếp tục và gán ký tự ổ đĩa (ví dụ: *E:* )
 
  ![24](https://github.com/volevu17/test1/blob/main/24.png?raw=true)
 
+  - **Assign the following drive letter:** Tùy chọn gán ký tự ổ đĩa cho phân vùng này (ở đây là E:). 
+  - **Mount in the dollowing empty NTFS folder:** Nếu chọn, quý khách có thể gắn phân vùng vào một thư mục trống trên ổ đĩa NTFS khác thay vì gán ký tự ổ đĩa.
+  - **Do not assign a drive letter or drive path:** Không gán ký tự hay đường dẫn nào, phân vùng sẽ không hiển thị trong **File Explorer**.
+
 - **Bước 8:** Chọn *Next* để qua một hộp thoại mới và chọn hệ thống tập tin tùy vào nhu cầu của quý khách
 
  ![25](https://github.com/volevu17/test1/blob/main/25.png?raw=true)
+
+ - **Do not format this volume:** Không định dạng. Nếu chọn mục này, bạn phải format sau khi tạo xong nếu muốn sử dụng được.
+ - **Format this volume with the following settings:** Trong quá trình phân vùng có thể định dạng cùng lúc.
+    - **File system:** Lựa chọn hệ thống tệp tin theo nhu cầu của quý khách.
+    - **Allocation unit size:** Kích thước đơn vị phân bổ.
+    - **Volume label:** Tên hiển thị của ổ đĩa này trong File Explorer.
+ - **Perform a quick format:** Định dạng nhanh, không kiểm tra bad sector. Nếu bỏ chọn thì sẽ format kỹ hơn (mất thời gian hơn).
+
+ - **Enable file and folder compression:** Nén tệp và thư mục trong ổ đĩa này để tiết kiệm không gian
 
 - **Bước 9:** Sau khi Mount thành công ta vào **This PC** để xem xuất hiện một ổ đĩa mới
 

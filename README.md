@@ -140,34 +140,34 @@ Sau đây sẽ là hướng dẫn các bước thao tác để add thêm disk HD
 
 - **Bước 1:** Chạy **Run** và nhập dòng lệnh **diskmgmt.msc** để vào được *Disk Management*
 
-![16](https://github.com/vndata-vn/probation/assets/81816026/f5be6447-50c6-42fd-b003-407e6b348403)
+![18](https://github.com/volevu17/test1/blob/main/18.png?raw=true)
 
 - **Bước 2:** Sau khi vào được *Disk Management*, quý khách sẽ thấy được một ổ đĩa đã được thêm vào là **Disk 1**
   
-![17](https://github.com/vndata-vn/probation/assets/81816026/f5be6447-50c6-42fd-b003-407e6b348403)
+![19](https://github.com/volevu17/test1/blob/main/19.png?raw=true)
 
 - **Bước 3:** Click chuột phải vào **Disk 1** chọn *Online* để bật **Disk 1**
-  ![18](https://github.com/vndata-vn/probation/assets/81816026/f5be6447-50c6-42fd-b003-407e6b348403)
+  ![20](https://github.com/volevu17/test1/blob/main/20.png?raw=true)
 
 - **Bước 4:** Click chuột phải vào vùng màu đen => chọn **New Simple Volume**
 
-  ![19](https://github.com/vndata-vn/probation/assets/81816026/f5be6447-50c6-42fd-b003-407e6b348403)
+  ![21](https://github.com/volevu17/test1/blob/main/21.png?raw=true)
 
 - **Bước 5:** Sau khi chọn **New Simple Volume** sẽ mở một hộp thoại mới, Để chọn dung lượng
 
-   ![19](https://github.com/vndata-vn/probation/assets/81816026/f5be6447-50c6-42fd-b003-407e6b348403)
+   ![22](https://github.com/volevu17/test1/blob/main/22.png?raw=true)
 
 - **Bước 6:** Chọn *Next* để tiếp tục và gán ký tự ổ đĩa (ví dụ: *E:* )
 
- ![20](https://github.com/vndata-vn/probation/assets/81816026/f5be6447-50c6-42fd-b003-407e6b348403)
+ ![23](https://github.com/volevu17/test1/blob/main/23.png?raw=true)
 
 - **Bước 7:** Chọn *Next* để qua một hộp thoại mới và chọn hệ thống tập tin tùy vào nhu cầu của quý khách
 
- ![21](https://github.com/vndata-vn/probation/assets/81816026/f5be6447-50c6-42fd-b003-407e6b348403)
+ ![24](https://github.com/volevu17/test1/blob/main/24.png?raw=true)
 
 - **Bước 8:** Sau khi Mount thành công ta vào **This PC** để xem xuất hiện một ổ đĩa mới
 
- ![22](https://github.com/vndata-vn/probation/assets/81816026/f5be6447-50c6-42fd-b003-407e6b348403)
+ ![26](https://github.com/vndata-vn/probation/assets/81816026/f5be6447-50c6-42fd-b003-407e6b348403)
   
 - Trong bài viết này mình đã hướng dẫn Mount ổ đĩa HDD thêm vào máy chủ trên 2 hệ điều hành đang thông dụng và phổ biến hiện nay. Chúc các bạn thao tác và thực hiện thành công.
 

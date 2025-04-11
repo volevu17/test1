@@ -168,6 +168,26 @@ Và còn nhiều hệ thống tệp khác nữa, quý khách có thể lựa ch�
   <img src="https://github.com/volevu17/test1/blob/main/17.png?raw=true" alt="Demo Image" width="800"/>
 </div>
 
+### 1.6. Tự động Mount sau khi Reboot
+ - Lấy UUID của phân vùng
+    <div align="center">
+  <img src="https://github.com/volevu17/test1/blob/main/103.png?raw=true" alt="Demo Image" width="800"/>
+</div>
+
+- Mở file fstab để chỉnh sửa bằng lệnh: *sudo nano /etc/fstab*
+
+  
+ <div align="center">
+  <img src="https://github.com/volevu17/test1/blob/main/104.png?raw=true" alt="Demo Image" width="800"/>
+</div>
+
+- **UUID=....:** Định danh duy nhất của phân vùng
+- **/mnt/data:** Điểm mount
+- **ext4:** Loại hệ thống tập tin
+- **0**: Không cần dump
+- **2**: Kiểm tra lỗi sau root (root */* là *1*)
+
+
 
 ### 2. MOUNT DISK TRÊN WINDOWS
 

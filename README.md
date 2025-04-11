@@ -16,7 +16,7 @@ Các bước hướng dẫn bên dưới được thực hiện sau khi quý kh�
 
 ### Bước 2: GIAO DIỆN "TẠO MÁY CHỦ MỚI"
 
- ![3](https://github.com/vndata-vn/probation/assets/81816026/f5be6447-50c6-42fd-b003-407e6b348403)
+ ![3](https://github.com/volevu17/test1/blob/main/3.png?raw=true)
 
 - **Tên máy chủ**: Là hostname (đối với Linux), Computer name (đối với Windows).
 - **Mật khẩu**: quý khách sẽ sử dụng mật khẩu này để kết nối đến máy chủ, ssh (đối với Linux), remote desktop (đối với Windows).
@@ -29,21 +29,21 @@ Các bước hướng dẫn bên dưới được thực hiện sau khi quý kh�
 ### Bước 3: LỰA CHỌN HỆ ĐIỀU HÀNH 
 - Quý khách chọn từ danh sách hệ điều hành có sẳn. Chúng tôi sẽ liên tục cập nhật các hệ điều hành phổ biến và mới nhất có thể ở danh sách này.
 
- ![4](https://github.com/vndata-vn/probation/assets/81816026/f5be6447-50c6-42fd-b003-407e6b348403)
+ ![4](https://github.com/volevu17/test1/blob/main/4.png?raw=true)
 
 
 ### Bước 4: CHỌN CẤU HÌNH MÁY ẢO 
 
 -  Mặc đinh hệ thống sẽ tự động mặc định thông số tối đa của gói toàn bộ tài nguyên của quý khách, quý khách có thể tùy chỉnh để phân chia số lượng máy chủ của mình mong muốn nếu cần tạo nhiều máy ảo hơn:
 
- ![5](https://github.com/vndata-vn/probation/assets/81816026/f5be6447-50c6-42fd-b003-407e6b348403)
+ ![5](https://github.com/volevu17/test1/blob/main/5.png?raw=true)
 
 ### Bước 5: KHỞI TẠO MÁY ẢO 
 - Sau khi bấm nút **Tạo máy ảo mới** thì máy chủ của quý khách đang khởi tạo, quý khách vui lòng chờ đến khi máy chủ khởi tạo hoàn tất. Thời gian tạo mới đối với máy ảo chạy hệ điều hành Windows Server (30 phút) sẽ lâu hơn Linux (5 phút).
 
 - Quá trình khởi tạo tất, trang web sẽ tự động chuyển sang trang mới với tất cả thông tin máy chủ quý khách.
 
- ![6](https://github.com/vndata-vn/probation/assets/81816026/f5be6447-50c6-42fd-b003-407e6b348403)
+ ![6](https://github.com/volevu17/test1/blob/main/6.png?raw=true)
 
  Đến đây máy chủ ảo của quý khách đã tạo xong, quý khách có thể truy cập vào để sử dụng.
 
@@ -64,25 +64,25 @@ Sau đây sẽ là hướng dẫn các bước thao tác để add thêm disk HD
 
 - Chọn máy ảo cần nâng cấp và tắt máy (shutdown) để đảm bảo an toàn. Quý khách có thể shutdown trực tiếp từ bên trong máy chủ hoặc bấm nút **Tắt nguồn**.
 
-   ![7](https://github.com/vndata-vn/probation/assets/81816026/f5be6447-50c6-42fd-b003-407e6b348403)
+   ![7](https://github.com/volevu17/test1/blob/main/7.png?raw=true)
 
 
 ### Bước 2: NÂNG CẤP Ổ CỨNG (STORAGE) CỦA MÁY CHỦ ẢO
 
 - Sau khi shutdown bấm vào mục Storage
 
- ![8](https://github.com/vndata-vn/probation/assets/81816026/f5be6447-50c6-42fd-b003-407e6b348403)
+ ![8](https://github.com/volevu17/test1/blob/main/8.png?raw=true)
 
  - **Add new disk**: Gắn thêm 1 disk mới vào máy chủ ảo. Quý khách có thể mount ổ đĩa mới này lên 1 phân vùng mới để lưu dữ liệu, hoặc join ổ đĩa này vào volume group hiện có trên máy chủ (nếu có cấu hình trước đó)
 
  - Mặc đinh hệ thống sẽ tự động mặc định thông số tối đa của gói toàn bộ tài nguyên của quý khách, quý khách có thể tùy chỉnh để phân chia số lượng máy chủ của mình mong muốn nếu cần tạo nhiều máy ảo hơn:
 
 
- ![9](https://github.com/vndata-vn/probation/assets/81816026/f5be6447-50c6-42fd-b003-407e6b348403)
+ ![9](https://github.com/volevu17/test1/blob/main/9.png?raw=true)
 
  ### Bước 2: TIẾN HÀNH KHỞI ĐỘNG LẠI MÁY CHỦ VÀ KIỂM TRA KẾT QUẢ
 
- ![10](https://github.com/vndata-vn/probation/assets/81816026/f5be6447-50c6-42fd-b003-407e6b348403)
+ ![10](https://github.com/volevu17/test1/blob/main/10.png?raw=true)
 
 - Bài viết trên đây là toàn bộ hướng dẫn thực hiện việc nâng cấp ổ đĩa HDD của máy chủ ảo, nếu quý khách gặp khó khăn trong quá trình thực hiện vui lòng liên hệ bộ phận hỗ trợ kỹ thuật để được hỗ trợ nhanh chóng.
  ---

@@ -154,7 +154,7 @@ Sau khi tạo thành công VPS Storage, quý khách tiền hành thêm disk HDD
  - Tiếp theo mount ổ đĩa đã được phân vùng vào thư mục vừa tạo ra bằng lệnh: sudo mount /dev/sdb1 /mnt/*Tên thư mục*
 
     <div align="center">
-  <img src="https://github.com/volevu17/test1/blob/main/16.png?raw=true" alt="Demo Image" width="800"/>
+  <img src="https://github.com/volevu17/test1/blob/main/16.png?raw=true" alt="Demo Image" width="8000"/>
 </div>
 
 ### 1.5. Kiểm tra

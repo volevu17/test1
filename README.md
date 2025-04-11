@@ -8,13 +8,20 @@ Các bước hướng dẫn bên dưới được thực hiện sau khi quý kh�
 
 ### Bước 1: THÊM MÁY CHỦ MỚI 
 - Quý khách click vào **Thêm máy chủ mới**.
-![1](https://github.com/volevu17/test1/blob/main/%E1%BA%A3nh%201.png?raw=true)
+- 
+<div align="center">
+  <img src="https://github.com/volevu17/test1/blob/main/%E1%BA%A3nh%201.png?raw=true" alt="Demo Image" width="800"/>
+</div>
 
 - Đối với quý khách đã có 1 hoặc nhiều máy chủ trước thì sẽ chọn **Thêm máy chủ mới bên tay trái**
 
 ### Bước 2: GIAO DIỆN "TẠO MÁY CHỦ MỚI"
 
- ![3](https://github.com/volevu17/test1/blob/main/3.png?raw=true)
+ <div align="center">
+  <img src="https://github.com/volevu17/test1/blob/main/3.png?raw=true" alt="Demo Image" width="800"/>
+</div>
+
+ 
 
 - **Tên máy chủ**: Là hostname (đối với Linux), Computer name (đối với Windows).
 - **Mật khẩu**: quý khách sẽ sử dụng mật khẩu này để kết nối đến máy chủ, ssh (đối với Linux), remote desktop (đối với Windows).
@@ -27,7 +34,10 @@ Các bước hướng dẫn bên dưới được thực hiện sau khi quý kh�
 ### Bước 3: LỰA CHỌN HỆ ĐIỀU HÀNH VÀ CẤU HÌNH MÁY ẢO
 - Quý khách chọn từ danh sách hệ điều hành có sẳn. Chúng tôi sẽ liên tục cập nhật các hệ điều hành phổ biến và mới nhất có thể ở danh sách này.
 
- ![100](https://github.com/volevu17/test1/blob/main/100.png?raw=true)
+  <div align="center">
+  <img src="https://github.com/volevu17/test1/blob/main/100.png?raw=true" alt="Demo Image" width="800"/>
+</div>
+
 
 
 - Mặc định, hệ thống sẽ tự động phân bổ toàn bộ tài nguyên tối đa theo gói dịch vụ mà quý khách đã đăng ký. Tuy nhiên, quý khách hoàn toàn có thể tùy chỉnh lại các thông số để phù hợp với nhu cầu, đặc biệt khi muốn tạo nhiều máy chủ ảo từ cùng một gói.
@@ -41,7 +51,9 @@ Các bước hướng dẫn bên dưới được thực hiện sau khi quý kh�
 
 - Quá trình khởi tạo tất, trang web sẽ tự động chuyển sang trang mới với tất cả thông tin máy chủ quý khách.
 
- ![6](https://github.com/volevu17/test1/blob/main/6.png?raw=true)
+ <div align="center">
+  <img src="https://github.com/volevu17/test1/blob/main/6.png?raw=true" alt="Demo Image" width="800"/>
+</div>
 
  Đến đây máy chủ ảo của quý khách đã tạo xong, quý khách có thể truy cập vào để sử dụng.
 
@@ -64,7 +76,9 @@ Sau khi tạo thành công VPS Storage, quý khách tiền hành thêm disk HDD
  
 - - Sau khi máy chủ đã được tắt hoàn toàn, quý khách chọn tab "Storage" trong giao diện quản lý VPS.
 
-   ![99](https://github.com/volevu17/test1/blob/main/99.png?raw=true)
+   <div align="center">
+  <img src="https://github.com/volevu17/test1/blob/main/99.png?raw=true" alt="Demo Image" width="800"/>
+</div>
 
 
 ### Bước 2: NÂNG CẤP Ổ CỨNG (STORAGE) CỦA MÁY CHỦ ẢO
@@ -74,11 +88,15 @@ Sau khi tạo thành công VPS Storage, quý khách tiền hành thêm disk HDD
 
  - Mặc đinh hệ thống sẽ tự động mặc định thông số tối đa của gói toàn bộ tài nguyên của quý khách, quý khách có thể tùy chỉnh để phân chia số lượng máy chủ của mình mong muốn nếu cần tạo nhiều máy ảo hơn:
 
- ![9](https://github.com/volevu17/test1/blob/main/9.png?raw=true)
+  <div align="center">
+  <img src="https://github.com/volevu17/test1/blob/main/9.png?raw=true" alt="Demo Image" width="800"/>
+</div>
 
  ### Bước 3: TIẾN HÀNH KHỞI ĐỘNG LẠI MÁY CHỦ VÀ KIỂM TRA KẾT QUẢ
 
- ![10](https://github.com/volevu17/test1/blob/main/10.png?raw=true)
+ <div align="center">
+  <img src="https://github.com/volevu17/test1/blob/main/10.png?raw=true" alt="Demo Image" width="800"/>
+</div>
 
 - Bài viết trên đây là toàn bộ hướng dẫn thực hiện việc nâng cấp ổ đĩa HDD của máy chủ ảo, nếu quý khách gặp khó khăn trong quá trình thực hiện vui lòng liên hệ bộ phận hỗ trợ kỹ thuật để được hỗ trợ nhanh chóng.
  ---
@@ -94,7 +112,9 @@ Sau khi tạo thành công VPS Storage, quý khách tiền hành thêm disk HDD
 
 - Để kiểm tra ổ đĩa đã được phân vùng chưa thì chúng ta dùng lệnh như sau: lsblk
 
-   ![11](https://github.com/volevu17/test1/blob/main/11.png?raw=true)
+    <div align="center">
+  <img src="https://github.com/volevu17/test1/blob/main/11.png?raw=true" alt="Demo Image" width="800"/>
+</div>
 
 ### 1.2. Tạo Partition.
 
@@ -106,11 +126,15 @@ Sau khi tạo thành công VPS Storage, quý khách tiền hành thêm disk HDD
   - Nhấn **Enter** vài lần để chấp nhận mặc định
   - Gõ *w* để ghi lại và thoát
 
-   ![13](https://github.com/volevu17/test1/blob/main/13.png?raw=true)
+ <div align="center">
+  <img src="https://github.com/volevu17/test1/blob/main/13.png?raw=true" alt="Demo Image" width="800"/>
+</div>
 
 - Sau khi tạo phân vùng thành công hãy kiểm tra bằng lênh: lsblk
 
- ![14](https://github.com/volevu17/test1/blob/main/14.png?raw=true)
+ <div align="center">
+  <img src="https://github.com/volevu17/test1/blob/main/14.png?raw=true" alt="Demo Image" width="800"/>
+</div>
 
 - Quý khách sẽ thấy /dev/sdb1
 
@@ -119,7 +143,9 @@ Sau khi tạo thành công VPS Storage, quý khách tiền hành thêm disk HDD
 
 - Quý khách cần tạo hệ thống tập tin (chẳng hạn ext4) để phân vùng có thể sử dụng được trong hệ điều hành.
 
-![15](https://github.com/volevu17/test1/blob/main/15.png?raw=true)
+ <div align="center">
+  <img src="https://github.com/volevu17/test1/blob/main/15.png?raw=true" alt="Demo Image" width="800"/>
+</div>
 
 ### 1.4. Mount Partition 
 
@@ -127,13 +153,17 @@ Sau khi tạo thành công VPS Storage, quý khách tiền hành thêm disk HDD
 
  - Tiếp theo mount ổ đĩa đã được phân vùng vào thư mục vừa tạo ra bằng lệnh: sudo mount /dev/sdb1 /mnt/*Tên thư mục*
 
-   ![16](https://github.com/volevu17/test1/blob/main/16.png?raw=true)
+    <div align="center">
+  <img src="https://github.com/volevu17/test1/blob/main/16.png?raw=true" alt="Demo Image" width="800"/>
+</div>
 
 ### 1.5. Kiểm tra
 
 - Để kiểm tra ổ đĩa đã được mount, quý khách dùng lệnh *df -hT*, sẽ hiển thị danh sách các phân vùng đã được mount cùng với định dạng hệ thống tập tin.
   
- ![17](https://github.com/volevu17/test1/blob/main/17.png?raw=true)
+  <div align="center">
+  <img src="https://github.com/volevu17/test1/blob/main/17.png?raw=true" alt="Demo Image" width="800"/>
+</div>
 
 
 ### 2. MOUNT DISK TRÊN WINDOWS
@@ -142,20 +172,28 @@ Sau khi tạo thành công VPS Storage, quý khách tiền hành thêm disk HDD
 
 - **Bước 2:** Sau khi vào được *Disk Management*, quý khách sẽ thấy được một ổ đĩa đã được thêm vào là **Disk 1**
   
-![97](https://github.com/volevu17/test1/blob/main/97.png?raw=true)
+ <div align="center">
+  <img src="https://github.com/volevu17/test1/blob/main/97.png?raw=true" alt="Demo Image" width="800"/>
+</div>
 
 - **Bước 3:** Click chuột phải vào **Disk 1** chọn *Online* để Online **Disk 1**
-  ![20](https://github.com/volevu17/test1/blob/main/20.png?raw=true)
+   <div align="center">
+  <img src="https://github.com/volevu17/test1/blob/main/20.png?raw=true" alt="Demo Image" width="800"/>
+</div>
 
 - **Bước 4:** Click chuột phải vào **Unallocated** => chọn **New Simple Volume**
 
-  ![21](https://github.com/volevu17/test1/blob/main/21png.png?raw=true)
+ <div align="center">
+  <img src="https://github.com/volevu17/test1/blob/main/21png.png?raw=true" alt="Demo Image" width="800"/>
+</div>
 
 - **Bước 5:** Sau khi chọn **New Simple Volume** sẽ mở một hộp thoại mới
 
 - **Bước 6:** Chọn *Next* để tiếp tục và điều chỉnh kích thước ổ đĩa
 
-  ![23](https://github.com/volevu17/test1/blob/main/23.png?raw=true)
+   <div align="center">
+  <img src="https://github.com/volevu17/test1/blob/main/23.png?raw=true" alt="Demo Image" width="800"/>
+</div>
 
   - **Maximum disk space in MB:** Dung lượng tối đa mà bạn có thể gán cho phân vùng này (tính theo MB). Đây là dung lượng trống có sẵn trên ổ đĩa.
   - **Minimum disk space in MB:** Dung lượng tối thiểu mà bạn có thể gán (thường là 8MB trở lên).
@@ -164,7 +202,9 @@ Sau khi tạo thành công VPS Storage, quý khách tiền hành thêm disk HDD
 
 - **Bước 7:** Chọn *Next* để tiếp tục và gán ký tự ổ đĩa.
 
- ![24](https://github.com/volevu17/test1/blob/main/24.png?raw=true)
+  <div align="center">
+  <img src="https://github.com/volevu17/test1/blob/main/24.png?raw=true" alt="Demo Image" width="800"/>
+</div>
 
   - **Assign the following drive letter:** Tùy chọn gán ký tự ổ đĩa cho phân vùng này (ở đây là E:). 
   - **Mount in the dollowing empty NTFS folder:** Nếu chọn, quý khách có thể gắn phân vùng vào một thư mục trống trên ổ đĩa NTFS khác thay vì gán ký tự ổ đĩa.
@@ -172,7 +212,9 @@ Sau khi tạo thành công VPS Storage, quý khách tiền hành thêm disk HDD
 
 - **Bước 8:** Chọn *Next* để qua một hộp thoại mới và chọn hệ thống tập tin tùy vào nhu cầu của quý khách
 
- ![25](https://github.com/volevu17/test1/blob/main/25.png?raw=true)
+ <div align="center">
+  <img src="https://github.com/volevu17/test1/blob/main/25.png?raw=true" alt="Demo Image" width="800"/>
+</div>
 
  - **Do not format this volume:** Không định dạng. Nếu chọn mục này, bạn phải format sau khi tạo xong nếu muốn sử dụng được.
  - **Format this volume with the following settings:** Trong quá trình phân vùng có thể định dạng cùng lúc.
@@ -185,7 +227,9 @@ Sau khi tạo thành công VPS Storage, quý khách tiền hành thêm disk HDD
 
     - **Bước 9:** Kiểm tra Mount
 
- ![26](https://github.com/volevu17/test1/blob/main/26.png?raw=true)
+ <div align="center">
+  <img src="https://github.com/volevu17/test1/blob/main/26.png?raw=true" alt="Demo Image" width="800"/>
+</div>
   
 - Trong bài viết này mình đã hướng dẫn Mount ổ đĩa HDD thêm vào máy chủ trên 2 hệ điều hành đang thông dụng và phổ biến hiện nay. Chúc các bạn thao tác và thực hiện thành công.
 

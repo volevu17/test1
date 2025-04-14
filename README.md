@@ -1,6 +1,6 @@
 # I. TẠO VPS STORAGE VỚI DỊCH VỤ CLOUD
 
-Kính chào quý khách,
+*Kính chào quý khách,*
 
 Sau khi quý khách đăng ký và thanh toán thành công, hệ thống sẽ tự động khởi tạo dịch vụ Cloud VPS và quý khách đã có thể tiến hành tạo máy chủ để sử dụng.
 
@@ -13,7 +13,7 @@ Các bước hướng dẫn bên dưới được thực hiện sau khi quý kh�
   <img src="https://github.com/volevu17/test1/blob/main/001.png?raw=true" alt="Demo Image" width="800"/>
 </div>
 
-- Đối với quý khách đã có 1 hoặc nhiều máy chủ trước thì sẽ chọn **Thêm máy chủ mới bên tay trái**
+- Đối với quý khách đã có 1 hoặc nhiều máy chủ trước thì sẽ chọn **Thêm máy chủ mới**
 
 ### Bước 2: GIAO DIỆN "TẠO MÁY CHỦ MỚI"
 
@@ -24,8 +24,8 @@ Các bước hướng dẫn bên dưới được thực hiện sau khi quý kh�
  
 
 - **Tên máy chủ**: Là hostname (đối với Linux), Computer name (đối với Windows).
-- **Mật khẩu**: quý khách sẽ sử dụng mật khẩu này để kết nối đến máy chủ, ssh (đối với Linux), remote desktop (đối với Windows).
-- **SSH Keys (tùy chọn)**: hoặc quý khách có thể bỏ qua bước này nếu không muốn sử dụng public ssh key: chỉ hoạt động đối với OS Linux, quý khách có thể add public ssh key của máy mình lên server thông qua quá trình khởi tạo.
+- **Mật khẩu**: Quý khách sẽ sử dụng mật khẩu này để kết nối đến máy chủ, ssh (đối với Linux), remote desktop (đối với Windows).
+- **SSH Keys (tùy chọn)**: Hoặc quý khách có thể bỏ qua bước này nếu không muốn sử dụng public ssh key: chỉ hoạt động đối với OS Linux, quý khách có thể add public ssh key của máy mình lên server thông qua quá trình khởi tạo.
   - Để add ssh key vào server, quý khách click chuột vào Quản lý SSH Keys.
   - Trang web sẽ chuyển sang phần add ssh key.
   - Quý khách chọn “ Add new ssh key “.
@@ -43,8 +43,8 @@ Các bước hướng dẫn bên dưới được thực hiện sau khi quý kh�
 - Mặc định, hệ thống sẽ tự động phân bổ toàn bộ tài nguyên tối đa theo gói dịch vụ mà quý khách đã đăng ký. Tuy nhiên, quý khách hoàn toàn có thể tùy chỉnh lại các thông số để phù hợp với nhu cầu, đặc biệt khi muốn tạo nhiều máy chủ ảo từ cùng một gói.
 
  - Storage: Quý khách có 2 sự lựa chọn
-   - OS Storage: Nơi cài đặt hệ điều hành
-   - HDD Storage: Dành cho lưu trữ dữ liệu phụ, data, backup,...
+   - **OS Storage:** Nơi cài đặt hệ điều hành
+   - **HDD Storage:** Dành cho lưu trữ dữ liệu phụ, data, backup,...
 
 ### Bước 4: KHỞI TẠO MÁY ẢO 
 - Sau khi bấm nút **Tạo máy ảo mới** thì máy chủ của quý khách đang khởi tạo, quý khách vui lòng chờ đến khi máy chủ khởi tạo hoàn tất. Thời gian tạo mới đối với máy ảo chạy hệ điều hành Windows Server (15 - 20 phút) sẽ lâu hơn Linux (5 phút).
@@ -57,8 +57,8 @@ Các bước hướng dẫn bên dưới được thực hiện sau khi quý kh�
 
  Đến đây máy chủ ảo của quý khách đã tạo xong, quý khách có thể truy cập vào để sử dụng.
 
- - **Đối với máy chủ ảo thuộc nhóm Linux**: quý khách có thể kết nối qua giao thức SSH với port mặc định là 22 và username mặc định là vmadmin (đây là user thuộc group sudo).
- - **Đối với máy chủ thuộc nhóm Windows Server**: quý khách có thể kết nối qua giao thức RDP với port mặc định là 3389.
+ - **Đối với máy chủ ảo thuộc nhóm Linux**: Quý khách có thể kết nối qua giao thức SSH với port mặc định là 22 và username mặc định là vmadmin (đây là user thuộc group sudo).
+ - **Đối với máy chủ thuộc nhóm Windows Server**: Quý khách có thể kết nối qua giao thức RDP với port mặc định là 3389.
 
 
 
@@ -66,7 +66,7 @@ Các bước hướng dẫn bên dưới được thực hiện sau khi quý kh�
 
 # II. ADD THÊM DISK HDD VÀO VPS STORAGE
 
-Kính chào quý khách,
+*Kính chào quý khách,*
 
 Sau khi tạo thành công VPS Storage, quý khách tiền hành thêm disk HDD
 
@@ -100,7 +100,7 @@ Sau khi tạo thành công VPS Storage, quý khách tiền hành thêm disk HDD
  ---
  # III. MOUNT DISK HDD BÊN TRONG OS LINUX VÀ WINDOWS
 
- Kính chào Quý khách,
+ *Kính chào Quý khách,*
 
  Sau khi đã thêm thành công ổ đĩa HDD vào máy chủ Cloud VPS, Quý khách vui lòng tiếp tục thực hiện các bước sau để mount ổ đĩa vào hệ điều hành và sử dụng cho mục đích lưu trữ dữ liệu.
 
@@ -118,11 +118,11 @@ Sau khi tạo thành công VPS Storage, quý khách tiền hành thêm disk HDD
 
  - Nếu ổ đĩa chưa được phân vùng, hãy sử dụng lệnh: fdisk
  - Trong fdisk:
-  - Gõ *n* để tạo phân vùng mới
-  - Gõ *p* để Primary
-  - Đánh số thứ tự cho phân vùng (mặc định là 1)
-  - Nhấn **Enter** vài lần để chấp nhận mặc định
-  - Gõ *w* để ghi lại và thoát
+    - Gõ *n* để tạo phân vùng mới
+    - Gõ *p* để Primary
+    - Đánh số thứ tự cho phân vùng (mặc định là 1)
+    - Nhấn **Enter** vài lần để chấp nhận mặc định
+    - Gõ *w* để ghi lại và thoát
 
  <div align="center">
   <img src="https://github.com/volevu17/test1/blob/main/009.png?raw=true" alt="Demo Image" width="800"/>

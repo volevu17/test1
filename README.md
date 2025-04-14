@@ -10,7 +10,7 @@ Các bước hướng dẫn bên dưới được thực hiện sau khi quý kh�
 - Quý khách click vào **Thêm máy chủ mới**.
 
 <div align="center">
-  <img src="https://github.com/volevu17/test1/blob/main/%E1%BA%A3nh%201.png?raw=true" alt="Demo Image" width="800"/>
+  <img src="https://github.com/volevu17/test1/blob/main/001.png?raw=true" alt="Demo Image" width="800"/>
 </div>
 
 - Đối với quý khách đã có 1 hoặc nhiều máy chủ trước thì sẽ chọn **Thêm máy chủ mới bên tay trái**
@@ -18,7 +18,7 @@ Các bước hướng dẫn bên dưới được thực hiện sau khi quý kh�
 ### Bước 2: GIAO DIỆN "TẠO MÁY CHỦ MỚI"
 
  <div align="center">
-  <img src="https://github.com/volevu17/test1/blob/main/3.png?raw=true" alt="Demo Image" width="800"/>
+  <img src="https://github.com/volevu17/test1/blob/main/002.png?raw=true" alt="Demo Image" width="800"/>
 </div>
 
  
@@ -35,7 +35,7 @@ Các bước hướng dẫn bên dưới được thực hiện sau khi quý kh�
 - Quý khách chọn từ danh sách hệ điều hành có sẳn. Chúng tôi sẽ liên tục cập nhật các hệ điều hành phổ biến và mới nhất có thể ở danh sách này.
 
   <div align="center">
-  <img src="https://github.com/volevu17/test1/blob/main/100.png?raw=true" alt="Demo Image" width="800"/>
+  <img src="https://github.com/volevu17/test1/blob/main/003.png?raw=true" alt="Demo Image" width="800"/>
 </div>
 
 
@@ -52,7 +52,7 @@ Các bước hướng dẫn bên dưới được thực hiện sau khi quý kh�
 - Quá trình khởi tạo tất, trang web sẽ tự động chuyển sang trang mới với tất cả thông tin máy chủ quý khách.
 
  <div align="center">
-  <img src="https://github.com/volevu17/test1/blob/main/6.png?raw=true" alt="Demo Image" width="800"/>
+  <img src="https://github.com/volevu17/test1/blob/main/004.png?raw=true" alt="Demo Image" width="800"/>
 </div>
 
  Đến đây máy chủ ảo của quý khách đã tạo xong, quý khách có thể truy cập vào để sử dụng.
@@ -75,7 +75,7 @@ Sau khi tạo thành công VPS Storage, quý khách tiền hành thêm disk HDD
 - Chọn máy ảo cần nâng cấp và quý khách chọn tab "Storage" trong giao diện quản lý VPS.
 
    <div align="center">
-  <img src="https://github.com/volevu17/test1/blob/main/101.png?raw=true" alt="Demo Image" width="800"/>
+  <img src="https://github.com/volevu17/test1/blob/main/005.png?raw=true" alt="Demo Image" width="800"/>
 </div>
 
 
@@ -87,13 +87,13 @@ Sau khi tạo thành công VPS Storage, quý khách tiền hành thêm disk HDD
  - Mặc đinh hệ thống sẽ tự động mặc định thông số tối đa của gói toàn bộ tài nguyên của quý khách, quý khách có thể tùy chỉnh để phân chia số lượng máy chủ của mình mong muốn nếu cần tạo nhiều máy ảo hơn:
 
   <div align="center">
-  <img src="https://github.com/volevu17/test1/blob/main/9.png?raw=true" alt="Demo Image" width="800"/>
+  <img src="https://github.com/volevu17/test1/blob/main/006.png?raw=true" alt="Demo Image" width="800"/>
 </div>
 
  ### Bước 3: TIẾN HÀNH KHỞI ĐỘNG LẠI MÁY CHỦ VÀ KIỂM TRA KẾT QUẢ
 
  <div align="center">
-  <img src="https://github.com/volevu17/test1/blob/main/10.png?raw=true" alt="Demo Image" width="800"/>
+  <img src="https://github.com/volevu17/test1/blob/main/007.png?raw=true" alt="Demo Image" width="800"/>
 </div>
 
 - Bài viết trên đây là toàn bộ hướng dẫn thực hiện việc nâng cấp ổ đĩa HDD của máy chủ ảo, nếu quý khách gặp khó khăn trong quá trình thực hiện vui lòng liên hệ bộ phận hỗ trợ kỹ thuật để được hỗ trợ nhanh chóng.
@@ -111,7 +111,7 @@ Sau khi tạo thành công VPS Storage, quý khách tiền hành thêm disk HDD
 - Để kiểm tra ổ đĩa đã được phân vùng chưa thì chúng ta dùng lệnh như sau: lsblk
 
     <div align="center">
-  <img src="https://github.com/volevu17/test1/blob/main/11.png?raw=true" alt="Demo Image" width="800"/>
+  <img src="https://github.com/volevu17/test1/blob/main/008.png?raw=true" alt="Demo Image" width="800"/>
 </div>
 
 ### 1.2. Tạo Partition.
@@ -125,13 +125,13 @@ Sau khi tạo thành công VPS Storage, quý khách tiền hành thêm disk HDD
   - Gõ *w* để ghi lại và thoát
 
  <div align="center">
-  <img src="https://github.com/volevu17/test1/blob/main/13.png?raw=true" alt="Demo Image" width="800"/>
+  <img src="https://github.com/volevu17/test1/blob/main/009.png?raw=true" alt="Demo Image" width="800"/>
 </div>
 
 - Sau khi tạo phân vùng thành công hãy kiểm tra bằng lênh: lsblk
 
  <div align="center">
-  <img src="https://github.com/volevu17/test1/blob/main/14.png?raw=true" alt="Demo Image" width="800"/>
+  <img src="https://github.com/volevu17/test1/blob/main/010.png?raw=true" alt="Demo Image" width="800"/>
 </div>
 
 - Quý khách sẽ thấy /dev/sdb1
@@ -142,7 +142,7 @@ Sau khi tạo thành công VPS Storage, quý khách tiền hành thêm disk HDD
 - Quý khách cần tạo hệ thống tập tin (chẳng hạn ext4) để phân vùng có thể sử dụng được trong hệ điều hành.
 
  <div align="center">
-  <img src="https://github.com/volevu17/test1/blob/main/15.png?raw=true" alt="Demo Image" width="800"/>
+  <img src="https://github.com/volevu17/test1/blob/main/011.png?raw=true" alt="Demo Image" width="800"/>
 </div>
 
 - Hệ thống tập tin EXT4 hỗ trợ: Kích thước tệp tối đa: 16TB
@@ -157,7 +157,7 @@ Và còn nhiều hệ thống tệp khác nữa, quý khách có thể lựa ch�
  - Tiếp theo mount ổ đĩa đã được phân vùng vào thư mục vừa tạo ra bằng lệnh: sudo mount /dev/sdb1 /mnt/*Tên thư mục*
 
     <div align="center">
-  <img src="https://github.com/volevu17/test1/blob/main/16.png?raw=true" alt="Demo Image" width="8000"/>
+  <img src="https://github.com/volevu17/test1/blob/main/012.png?raw=true" alt="Demo Image" width="8000"/>
 </div>
 
 ### 1.5. Kiểm tra
@@ -165,20 +165,20 @@ Và còn nhiều hệ thống tệp khác nữa, quý khách có thể lựa ch�
 - Để kiểm tra ổ đĩa đã được mount, quý khách dùng lệnh *df -hT*, sẽ hiển thị danh sách các phân vùng đã được mount cùng với định dạng hệ thống tập tin.
   
   <div align="center">
-  <img src="https://github.com/volevu17/test1/blob/main/17.png?raw=true" alt="Demo Image" width="800"/>
+  <img src="https://github.com/volevu17/test1/blob/main/013.png?raw=true" alt="Demo Image" width="800"/>
 </div>
 
 ### 1.6. Tự động Mount sau khi Reboot
  - Lấy UUID của phân vùng
     <div align="center">
-  <img src="https://github.com/volevu17/test1/blob/main/103.png?raw=true" alt="Demo Image" width="800"/>
+  <img src="https://github.com/volevu17/test1/blob/main/014.png?raw=true" alt="Demo Image" width="800"/>
 </div>
 
 - Mở file fstab để chỉnh sửa bằng lệnh: *sudo nano /etc/fstab*
 
   
  <div align="center">
-  <img src="https://github.com/volevu17/test1/blob/main/104.png?raw=true" alt="Demo Image" width="800"/>
+  <img src="https://github.com/volevu17/test1/blob/main/015.png?raw=true" alt="Demo Image" width="800"/>
 </div>
 
 - **UUID=....:** Định danh duy nhất của phân vùng
@@ -196,18 +196,18 @@ Và còn nhiều hệ thống tệp khác nữa, quý khách có thể lựa ch�
 - **Bước 2:** Sau khi vào được *Disk Management*, quý khách sẽ thấy được một ổ đĩa đã được thêm vào là **Disk 1**
   
  <div align="center">
-  <img src="https://github.com/volevu17/test1/blob/main/97.png?raw=true" alt="Demo Image" width="800"/>
+  <img src="https://github.com/volevu17/test1/blob/main/016.png?raw=true" alt="Demo Image" width="800"/>
 </div>
 
 - **Bước 3:** Click chuột phải vào **Disk 1** chọn *Online* để Online **Disk 1**
    <div align="center">
-  <img src="https://github.com/volevu17/test1/blob/main/20.png?raw=true" alt="Demo Image" width="800"/>
+  <img src="https://github.com/volevu17/test1/blob/main/017.png?raw=true" alt="Demo Image" width="800"/>
 </div>
 
 - **Bước 4:** Click chuột phải vào **Unallocated** => chọn **New Simple Volume**
 
  <div align="center">
-  <img src="https://github.com/volevu17/test1/blob/main/21png.png?raw=true" alt="Demo Image" width="800"/>
+  <img src="https://github.com/volevu17/test1/blob/main/018.png?raw=true" alt="Demo Image" width="800"/>
 </div>
 
 - **Bước 5:** Sau khi chọn **New Simple Volume** sẽ mở một hộp thoại mới
@@ -215,7 +215,7 @@ Và còn nhiều hệ thống tệp khác nữa, quý khách có thể lựa ch�
 - **Bước 6:** Chọn *Next* để tiếp tục và điều chỉnh kích thước ổ đĩa
 
    <div align="center">
-  <img src="https://github.com/volevu17/test1/blob/main/23.png?raw=true" alt="Demo Image" width="800"/>
+  <img src="https://github.com/volevu17/test1/blob/main/019.png?raw=true" alt="Demo Image" width="800"/>
 </div>
 
   - **Maximum disk space in MB:** Dung lượng tối đa mà bạn có thể gán cho phân vùng này (tính theo MB). Đây là dung lượng trống có sẵn trên ổ đĩa.
@@ -226,7 +226,7 @@ Và còn nhiều hệ thống tệp khác nữa, quý khách có thể lựa ch�
 - **Bước 7:** Chọn *Next* để tiếp tục và gán ký tự ổ đĩa.
 
   <div align="center">
-  <img src="https://github.com/volevu17/test1/blob/main/24.png?raw=true" alt="Demo Image" width="800"/>
+  <img src="https://github.com/volevu17/test1/blob/main/020.png?raw=true" alt="Demo Image" width="800"/>
 </div>
 
   - **Assign the following drive letter:** Tùy chọn gán ký tự ổ đĩa cho phân vùng này (ở đây là E:). 
@@ -238,7 +238,7 @@ Và còn nhiều hệ thống tệp khác nữa, quý khách có thể lựa ch�
 - **Bước 8:** Chọn *Next* để qua một hộp thoại mới và chọn hệ thống tập tin tùy vào nhu cầu của quý khách
 
  <div align="center">
-  <img src="https://github.com/volevu17/test1/blob/main/25.png?raw=true" alt="Demo Image" width="800"/>
+  <img src="https://github.com/volevu17/test1/blob/main/021.png?raw=true" alt="Demo Image" width="800"/>
 </div>
 
  - **Do not format this volume:** Không định dạng. Nếu chọn mục này, bạn phải format sau khi tạo xong nếu muốn sử dụng được.
@@ -254,7 +254,7 @@ Và còn nhiều hệ thống tệp khác nữa, quý khách có thể lựa ch�
     - **Bước 9:** Kiểm tra Mount
 
  <div align="center">
-  <img src="https://github.com/volevu17/test1/blob/main/26.png?raw=true" alt="Demo Image" width="800"/>
+  <img src="https://github.com/volevu17/test1/blob/main/022.png?raw=true" alt="Demo Image" width="800"/>
 </div>
   
 - Trong bài viết này mình đã hướng dẫn Mount ổ đĩa HDD thêm vào máy chủ trên 2 hệ điều hành đang thông dụng và phổ biến hiện nay. Chúc quý khách thao tác và thực hiện thành công.
